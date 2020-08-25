@@ -4,8 +4,9 @@ class CreateMusics < ActiveRecord::Migration[6.0]
       t.string :instrument
       t.string :title
       t.string :composer
-      t.integer :diffculty
-      t.string :link
+      t.string :arranger
+      t.string :publisher
+      t.integer :difficulty
     end
   end
 end
