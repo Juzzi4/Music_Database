@@ -18,8 +18,7 @@ data.each do |x|
         instrument: x[1],
         title: x[2],
         composer: x[3],
-        arranger: x[4],
-        publisher: x[5],
-        difficulty: x[6],
+        difficulty: x[4],
+        link: x[5],
     )
 end

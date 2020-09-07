@@ -26,6 +26,7 @@ class MusicsController < ApplicationController
         # musics = CSV.read("Sheet Music Plus Music Links - Sheet1.csv")
         render json: musics, except: [:created_at, :updated_at]
     end
+    # Need to figure out how to get 
 
     def show
         render json: @music, except: [:created_at, :updated_at]
